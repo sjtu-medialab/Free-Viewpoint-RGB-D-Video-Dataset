@@ -20,6 +20,5 @@ An alumina calibration chess board is used to get more exact intrinsic and extri
 
 ## Download
 
-At this time, you can access our [Baidu Netdisk](https://pan.baidu.com/s/1onBiiTBXcvb_X_xxht8Fug?pwd=igfd) to download video sequences of the dataset. As the epidemic situation of COVID-19 in ShangHai recently, now we can not upload dataset to Dropbox, Google Drive or other netdisk, we will fix it later. 
-
+At this time, you can access our [Baidu Netdisk](https://pan.baidu.com/s/1onBiiTBXcvb_X_xxht8Fug?pwd=igfd) or [MEGA](https://mega.nz/folder/pQlGkJCD#jjwphJzKOvpYKWVEc-tKbA) to download video sequences of the dataset. More access to our dataset will be released soon. 
 Camera parameters are provided in this repository. 
