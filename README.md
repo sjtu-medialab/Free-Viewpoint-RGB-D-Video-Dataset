@@ -31,9 +31,15 @@ A video demo based on this dataset (after quality improvement of depth image) an
 ## Paper
 If our dataset is helpful to your research, please cite this paper:
 > @inproceedings{guo2022new,
+
   title={A new free viewpoint video dataset and DIBR benchmark},
+  
   author={Guo, Shuai and Zhou, Kai and Hu, Jingchuan and Wang, Jionghao and Xu, Jun and Song, Li},
+  
   booktitle={Proceedings of the 13th ACM Multimedia Systems Conference},
+  
   pages={265--271},
+  
   year={2022}
+  
 }
