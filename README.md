@@ -21,4 +21,19 @@ An alumina calibration chess board is used to get more exact intrinsic and extri
 ## Download
 
 At this time, you can access our [Baidu Netdisk](https://pan.baidu.com/s/1onBiiTBXcvb_X_xxht8Fug?pwd=igfd) or [MEGA](https://mega.nz/folder/pQlGkJCD#jjwphJzKOvpYKWVEc-tKbA) to download video sequences of the dataset. More access to our dataset will be released soon. 
+You can also refer to this [link](https://medialab.sjtu.edu.cn/post/free-viewpoint-rgb-d-video-dataset/) in [Medialab](https://medialab.sjtu.edu.cn/).
 Camera parameters are provided in this repository. 
+
+## Video Demo
+A video demo based on this dataset (after quality improvement of depth image) and DIBR benchmark is available in:
+<iframe src="//player.bilibili.com/player.html?aid=560846220&bvid=BV1Fe4y1b7mt&cid=840790286&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+## Paper
+If our dataset is helpful to your research, please cite this paper:
+> @inproceedings{guo2022new,
+  title={A new free viewpoint video dataset and DIBR benchmark},
+  author={Guo, Shuai and Zhou, Kai and Hu, Jingchuan and Wang, Jionghao and Xu, Jun and Song, Li},
+  booktitle={Proceedings of the 13th ACM Multimedia Systems Conference},
+  pages={265--271},
+  year={2022}
+}
