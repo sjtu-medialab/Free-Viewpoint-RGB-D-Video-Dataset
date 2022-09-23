@@ -26,20 +26,15 @@ Camera parameters are provided in this repository.
 
 ## Video Demo
 A video demo based on this dataset (after quality improvement of depth image) and DIBR benchmark is available in:
+
 <iframe src="//player.bilibili.com/player.html?aid=560846220&bvid=BV1Fe4y1b7mt&cid=840790286&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## Paper
 If our dataset is helpful to your research, please cite this paper:
 > @inproceedings{guo2022new,
-
   title={A new free viewpoint video dataset and DIBR benchmark},
-  
   author={Guo, Shuai and Zhou, Kai and Hu, Jingchuan and Wang, Jionghao and Xu, Jun and Song, Li},
-  
   booktitle={Proceedings of the 13th ACM Multimedia Systems Conference},
-  
   pages={265--271},
-  
   year={2022}
-  
 }
