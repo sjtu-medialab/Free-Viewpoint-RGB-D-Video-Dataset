@@ -28,6 +28,8 @@ Camera parameters are provided in this repository.
 A video demo based on this dataset (after quality improvement of depth image) and DIBR benchmark is available in:
 [![FVV Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1663898662/video_to_markdown/images/youtube--pLSruH-0byo-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=pLSruH-0byo "FVV Demo")
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pLSruH-0byo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Paper
 If our dataset is helpful to your research, please cite this paper:
 > @inproceedings{guo2022new,
