@@ -27,7 +27,7 @@ Camera parameters are provided in this repository.
 ## Video Demo
 A video demo based on this dataset (after quality improvement of depth image) and DIBR benchmark is available in:
 
-<iframe src="//player.bilibili.com/player.html?aid=560846220&bvid=BV1Fe4y1b7mt&cid=840790286&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<a href="//player.bilibili.com/player.html?aid=560846220&bvid=BV1Fe4y1b7mt&cid=840790286&page=1" title="Link Title"><img src="{image-url}" alt="Alternate Text" /></a>
 
 ## Paper
 If our dataset is helpful to your research, please cite this paper:
