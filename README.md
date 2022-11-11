@@ -18,11 +18,18 @@ The collecting environment is a uniformly lighted clean indoor stage which is 8.
 
 An alumina calibration chess board is used to get more exact intrinsic and extrinsic parameters of the 12 cameras. Then we get depth images for all frames of video sequences with COLMAP. For each camera view, we calculate a common background depth map which is the average of nonempty part of depth images that corresponds to RGB frames taken by this camera. After that, we improved quality of depth images by background replacement and foreground filtering. 
 
-## Download
+## Video Sequences Download
 
 At this time, you can access our [BaiduNetdisk](https://pan.baidu.com/s/1R-tQ54zPowTkadevr-GbBQ)(百度网盘) with verify code of 'sjtu', or [MEGA](https://mega.nz/folder/pQlGkJCD#jjwphJzKOvpYKWVEc-tKbA) to download video sequences of the dataset. More access to our dataset will be released soon. 
+
 You can also refer to this [link](https://medialab.sjtu.edu.cn/post/free-viewpoint-rgb-d-video-dataset/) in [Medialab](https://medialab.sjtu.edu.cn/).
+
+## Camera Parameters
+
 **Camera parameters are provided in [this repository](https://github.com/sjtu-medialab/Free-Viewpoint-RGB-D-Video-Dataset.git).**
+
+In this respository, 'Camera Parameters/paras.txt' has 60 lines.
+Each 5 lines begines with a camera id, `K_matrix`
 
 ## Video Demo
 A video demo based on this dataset (after quality improvement of depth image) and DIBR benchmark is available in:
