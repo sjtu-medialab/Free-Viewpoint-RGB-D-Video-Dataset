@@ -20,9 +20,9 @@ An alumina calibration chess board is used to get more exact intrinsic and extri
 
 ## Download
 
-At this time, you can access our [百度网盘BaiduNetdisk](https://pan.baidu.com/s/12LW2frCxvna2DD3vJlDuug) with verify code of 'sjtu', or [MEGA](https://mega.nz/folder/pQlGkJCD#jjwphJzKOvpYKWVEc-tKbA) to download video sequences of the dataset. More access to our dataset will be released soon. 
+At this time, you can access our [BaiduNetdisk](https://pan.baidu.com/s/12LW2frCxvna2DD3vJlDuug)(百度网盘) with verify code of 'sjtu', or [MEGA](https://mega.nz/folder/pQlGkJCD#jjwphJzKOvpYKWVEc-tKbA) to download video sequences of the dataset. More access to our dataset will be released soon. 
 You can also refer to this [link](https://medialab.sjtu.edu.cn/post/free-viewpoint-rgb-d-video-dataset/) in [Medialab](https://medialab.sjtu.edu.cn/).
-Camera parameters are provided in this repository. 
+Camera parameters are provided in this repository.
 
 ## Video Demo
 A video demo based on this dataset (after quality improvement of depth image) and DIBR benchmark is available in:
@@ -30,10 +30,13 @@ A video demo based on this dataset (after quality improvement of depth image) an
 
 ## Paper
 If our dataset is helpful to your research, please cite this paper:
-> @inproceedings{guo2022new,
+
+```bibtex
+@inproceedings{guo2022new,
   title={A new free viewpoint video dataset and DIBR benchmark},
   author={Guo, Shuai and Zhou, Kai and Hu, Jingchuan and Wang, Jionghao and Xu, Jun and Song, Li},
   booktitle={Proceedings of the 13th ACM Multimedia Systems Conference},
   pages={265--271},
   year={2022}
 }
+```
