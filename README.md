@@ -1,6 +1,6 @@
 # Free Viewpoint RGB-D Video Dataset
 
-![](https://github.com/sjtu-medialab/Free-Viewpoint-RGB-D-Video-Dataset/blob/main/frames.png)
+![](https://github.com/sjtu-medialab/Free-Viewpoint-RGB-D-Video-Dataset/blob/main/examples.png)
 
 ## Introduction
 
@@ -20,7 +20,7 @@ An alumina calibration chess board is used to get more exact intrinsic and extri
 
 ## Download
 
-At this time, you can access our [Baidu Netdisk](https://pan.baidu.com/s/1onBiiTBXcvb_X_xxht8Fug?pwd=igfd) or [MEGA](https://mega.nz/folder/pQlGkJCD#jjwphJzKOvpYKWVEc-tKbA) to download video sequences of the dataset. More access to our dataset will be released soon. 
+At this time, you can access our [百度网盘BaiduNetdisk](https://pan.baidu.com/s/12LW2frCxvna2DD3vJlDuug) with verify code of 'sjtu', or [MEGA](https://mega.nz/folder/pQlGkJCD#jjwphJzKOvpYKWVEc-tKbA) to download video sequences of the dataset. More access to our dataset will be released soon. 
 You can also refer to this [link](https://medialab.sjtu.edu.cn/post/free-viewpoint-rgb-d-video-dataset/) in [Medialab](https://medialab.sjtu.edu.cn/).
 Camera parameters are provided in this repository. 
 
