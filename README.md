@@ -38,7 +38,7 @@ Each 5 lines contain camera parameters of a camera:
 - Line of `R_matrix` has 9 numbers, which are the 9 numbers of the rotation matrix `R`, oriented top to bottom and left to right;
 - Line of `world_position` has 3 numbers, which describes world position `t` of this camera.
 
-For each point `Xw` in the world system, its pixil position `Xp` and coordinates in the position system of this camera `Xc` is got by `Xp = K*Xc = K*R*(Xw-t)`.
+For each point `Xw` in the world system, its pixel position `Xp` and coordinates in the position system of this camera `Xc` is got by `Xp = K*Xc = K*R*(Xw-t)`.
 
 Folder of `Camera Parameters/created` contains files that we used to estimate the coarse depth images.
 
