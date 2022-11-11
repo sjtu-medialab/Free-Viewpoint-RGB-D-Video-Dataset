@@ -40,8 +40,6 @@ Each 5 lines contain camera parameters of a camera:
 
 For each point `Xw` in the world system, its pixel position `Xp` and coordinates in the position system of this camera `Xc` is got by `Xp = K*Xc = K*R*(Xw-t)`.
 
-Folder of `Camera Parameters/created` contains files that we used to estimate the coarse depth images.
-
 ## How to get depth values
 
 Depth images of our dataset are grayscale images, each pixel has a value `p` between 0~255.
