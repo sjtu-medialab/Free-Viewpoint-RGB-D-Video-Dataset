@@ -26,16 +26,21 @@ You can also refer to this [link](https://medialab.sjtu.edu.cn/post/free-viewpoi
 
 ## Camera Parameters
 
-**Camera parameters are provided in [this repository](https://github.com/sjtu-medialab/Free-Viewpoint-RGB-D-Video-Dataset.git).**
+Camera parameters are provided in [this repository](https://github.com/sjtu-medialab/Free-Viewpoint-RGB-D-Video-Dataset.git).
 
-In this repository, `Camera Parameters/paras.txt` has 60 lines.
+The folder of `Camera Parameters/sparse` contains camera parameters that were got by COLMAP.
+We used them to estimate the coarse depth images of this dataset, as shown in `Camera Parameters/created`.
+
+In addition, `Camera Parameters/paras.txt` that has 60 lines is another form of these parameters.
 Each 5 lines contain camera parameters of a camera: 
 - Line of `resolution` describes resolution of this camera, all camera have a resolution of 1920x1080;
 - Line of `K_matrix` has 4 numbers, which are `fx`, `fy`, `cx`, `cy` of the intrinsic matrix;
 - Line of `R_matrix` has 9 numbers, which are the 9 numbers of the rotation matrix `R`, oriented top to bottom and left to right;
 - Line of `world_position` has 3 numbers, which describes world position `t` of this camera.
 
-For each point `Xw` in the world system, its position in the position system of this camera `Xc` is got by `Xc = R(Xw-t)`
+For each point `Xw` in the world system, its pixil position `Xp` and coordinates in the position system of this camera `Xc` is got by `Xp = KXc = KR(Xw-t)`.
+
+Folder of `Camera Parameters/created` contains files that we used to estimate the coarse depth images
 
 ## Video Demo
 A video demo based on this dataset (after quality improvement of depth image) and DIBR benchmark is available in:
