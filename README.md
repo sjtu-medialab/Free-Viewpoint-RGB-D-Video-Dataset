@@ -40,7 +40,7 @@ Each 5 lines contain camera parameters of a camera:
 
 For each point `Xw` in the world system, its pixil position `Xp` and coordinates in the position system of this camera `Xc` is got by `Xp = K*Xc = K*R*(Xw-t)`.
 
-Folder of `Camera Parameters/created` contains files that we used to estimate the coarse depth images
+Folder of `Camera Parameters/created` contains files that we used to estimate the coarse depth images.
 
 ## Video Demo
 A video demo based on this dataset (after quality improvement of depth image) and DIBR benchmark is available in:
