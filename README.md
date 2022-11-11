@@ -28,8 +28,14 @@ You can also refer to this [link](https://medialab.sjtu.edu.cn/post/free-viewpoi
 
 **Camera parameters are provided in [this repository](https://github.com/sjtu-medialab/Free-Viewpoint-RGB-D-Video-Dataset.git).**
 
-In this respository, 'Camera Parameters/paras.txt' has 60 lines.
-Each 5 lines begines with a camera id, `K_matrix`
+In this repository, `Camera Parameters/paras.txt` has 60 lines.
+Each 5 lines contain camera parameters of a camera: 
+- Line of `resolution` describes resolution of this camera, all camera have a resolution of 1920x1080;
+- Line of `K_matrix` has 4 numbers, which are `fx`, `fy`, `cx`, `cy` of the intrinsic matrix;
+- Line of `R_matrix` has 9 numbers, which are the 9 numbers of the rotation matrix `R`, oriented top to bottom and left to right;
+- Line of `world_position` has 3 numbers, which describes world position `t` of this camera.
+
+For each point `Xw` in the world system, its position in the position system of this camera `Xc` is got by `Xc = R(Xw-t)`
 
 ## Video Demo
 A video demo based on this dataset (after quality improvement of depth image) and DIBR benchmark is available in:
