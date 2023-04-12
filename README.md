@@ -42,4 +42,12 @@ For each point `Xw` in the world system, its pixel position `Xp` and coordinates
 
 Depth images of our dataset are grayscale images, each pixel has a value `p` between 0~255.
 
-Its corresponding depth value `d` can be obtained by `d = 255*32504/(p*110)`.
+Its corresponding depth value `d` can be obtained by the following code:
+```
+depthmap = Image.open(depthmap_path)
+fB = 32504
+mindepth, maxdepth = 40, 150
+maxdisp, mindisp = fB/mindepth, fB/maxdepth
+depth = np.array(depthmap, dtype=np.float32)
+depth = fB / (depth / 255 * (maxdisp - mindisp) + mindisp)
+```
