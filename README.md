@@ -42,7 +42,7 @@ For each point `Xw` in the world system, its pixel position `Xp` and coordinates
 
 Depth images of our dataset are grayscale images, each pixel has a value `p` between 0~255.
 
-The following code shows how to transfer a depth map into its corresponding depth values:
+The code below demonstrates how to convert a depth map into its corresponding depth values:
 ```
 depthmap = Image.open(depthmap_path)
 fB = 32504
