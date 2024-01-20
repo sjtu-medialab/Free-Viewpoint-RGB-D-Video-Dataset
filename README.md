@@ -54,7 +54,7 @@ depth = fB / (depth / 255 * (maxdisp - mindisp) + mindisp)
 
 ## Citation
 
-If you find our work useful for your research, please cite the following paper:
+If you find our work helps, please cite the following paper:
 ```
 @ARTICLE{10403933,
   author={Guo, Shuai and Hu, Jingchuan and Zhou, Kai and Wang, Jionghao and Song, Li and Xie, Rong and Zhang, Wenjun},
@@ -64,5 +64,6 @@ If you find our work useful for your research, please cite the following paper:
   volume={},
   number={},
   pages={1-16},
-  doi={10.1109/TMM.2024.3355639}}
+  doi={10.1109/TMM.2024.3355639}
+}
 ```
