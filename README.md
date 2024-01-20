@@ -51,3 +51,18 @@ maxdisp, mindisp = fB/mindepth, fB/maxdepth
 depth = np.array(depthmap, dtype=np.float32)
 depth = fB / (depth / 255 * (maxdisp - mindisp) + mindisp)
 ```
+
+## Citation
+
+If you find our work useful for your research, please cite the following paper:
+```
+@ARTICLE{10403933,
+  author={Guo, Shuai and Hu, Jingchuan and Zhou, Kai and Wang, Jionghao and Song, Li and Xie, Rong and Zhang, Wenjun},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Real-Time Free Viewpoint Video Synthesis System Based on DIBR and A Depth Estimation Network}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-16},
+  doi={10.1109/TMM.2024.3355639}}
+```
